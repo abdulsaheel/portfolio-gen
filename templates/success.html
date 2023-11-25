@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Portfolio Success</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Congratulations!</h1>
+        <p class="lead">Your portfolio has been successfully created and deployed.</p>
+        <hr class="my-4">
+        <p>You can view your portfolio by visiting the following link:</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('portfolio_template', fname=fname, roll_no=roll_no) }}" role="button">View Portfolio</a>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies (you might need to adjust the version based on your needs) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
